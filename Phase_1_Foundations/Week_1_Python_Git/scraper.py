@@ -17,10 +17,14 @@ class JokeFetcher:
             print("\n--- Here's a joke for you ---")
             print(f"Setup: {data['setup']}")
             print(f"Punchline: {data['punchline']}")
-            print("-------------------------------")
+            print("-----------------------------")
         else:
             print("Failed to Fetch Joke")
             
 if __name__ == "__main__":
     my_joke = JokeFetcher(name='ABCD')
-    my_joke.get_joke()
+    print("How many jokes do you want to hear?")
+    num = int(input("Enter a number: "))
+    for i in range(num):  
+        print(f"\nJoke {i+1}:")  
+        my_joke.get_joke()
