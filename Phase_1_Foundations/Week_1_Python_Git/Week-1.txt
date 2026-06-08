@@ -1,0 +1,2 @@
+This text file tells that Week-1 was a basic Setup for IDE, Git, venv and understanding of Python OOP.
+So refer the documentation and Projects for Week-1.
