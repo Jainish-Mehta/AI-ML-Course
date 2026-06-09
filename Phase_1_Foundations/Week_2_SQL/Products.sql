@@ -1,0 +1,38 @@
+-- PRAGMA foreign_keys = ON;
+-- CREATE TABLE IF NOT EXISTS products(
+--     product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+--     product_name TEXT NOT NULL,
+--     price REAL NOT NULL
+-- );
+
+-- INSERT INTO products(product_name, price)
+-- VALUES('Laptop', 999.99),
+-- ('Smartphone', 499.99),
+-- ('Headphones', 199.99),
+-- ('Smartwatch', 299.99),
+-- ('Tablet', 399.99),
+-- ('Camera', 599.99),
+-- ('Printer', 149.99),
+-- ('Monitor', 249.99),
+-- ('Keyboard', 89.99),
+-- ('Mouse', 49.99),
+-- ('External Hard Drive', 129.99),
+-- ('USB Flash Drive', 19.99),
+-- ('Router', 79.99),
+-- ('Smart Home Hub', 149.99),
+-- ('Fitness Tracker', 99.99),
+-- ('Gaming Console', 399.99),
+-- ('VR Headset', 299.99),
+-- ('Drone', 499.99),
+-- ('E-reader', 129.99),
+-- ('Bluetooth Speaker', 89.99),
+-- ('Webcam', 59.99),
+-- ('Microphone', 149.99),
+-- ('Graphics Card', 699.99),
+-- ('Processor', 399.99),
+-- ('RAM', 199.99),
+-- ('Solid State Drive', 149.99),
+-- ('Power Bank', 49.99),
+-- ('Smart Light Bulb', 29.99),
+-- ('Smart Thermostat', 199.99),
+-- ('Smart Lock', 149.99);
