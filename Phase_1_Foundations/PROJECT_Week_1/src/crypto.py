@@ -6,7 +6,7 @@ import csv
 class Crypto_Price_Fetcher:
     def __init__(self, coin_name):
         self.coin = coin_name
-        self.api_url = "https://api.coingecko.com/api/v3/simple/price"
+        self.api_url = "https://api.coingecko.com/api/v3/coins/markets"
         current_dir = Path(__file__).resolve().parent.parent
         self.file_path = current_dir / "data" / "crypto_prices.csv"
         print(f"[{self.coin.upper()}] Tracker Initialized. Fetching price data for {self.coin}...")

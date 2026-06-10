@@ -1,0 +1,21 @@
+-- PRAGMA foreign_keys = ON;
+-- CREATE TABLE crypto_currencies (
+--     crypto_currency_id INTEGER PRIMARY KEY AUTOINCREMENT,
+--     name VARCHAR(255) NOT NULL,
+--     symbol VARCHAR(10) NOT NULL,
+--     market_cap DECIMAL(20, 2) NOT NULL,
+--     price DECIMAL(20, 2) NOT NULL,
+--     volume_24h DECIMAL(20, 2) NOT NULL,
+--     circulating_supply DECIMAL(20, 2) NOT NULL,
+--     total_supply DECIMAL(20, 2) NOT NULL,
+--     max_supply DECIMAL(20, 2),
+--     percent_change_1h DECIMAL(5, 2),
+--     percent_change_24h DECIMAL(5, 2),
+--     percent_change_7d DECIMAL(5, 2),
+--     last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+
+-- Alter table crypto_currencies
+-- Add column image BLOB;
+-- Alter table crypto_currencies
+-- Drop column price;
