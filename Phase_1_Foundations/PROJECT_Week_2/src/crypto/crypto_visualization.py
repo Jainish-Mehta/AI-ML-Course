@@ -6,8 +6,8 @@ from PIL import Image
 import io
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
-root = Path(__file__).resolve().parent.parent
-db_path = root / "db" / "crypto.db"
+root = Path(__file__).resolve().parent.parent.parent
+db_path = root / "db" / "crypto" / "crypto.db"
 
 print("Querying Database for Time-Series History...")
 with sqlite3.connect(db_path) as conn:
@@ -65,5 +65,5 @@ for i, symbol in enumerate(unique_coins):
 
 plt.tight_layout()
 print("Displaying Graph...")
-plt.savefig(root / "data" / "crypto_price_history_chart.png")
+plt.savefig(root / "data" / "crypto" / "crypto_price_history_chart.png")
 plt.show()

@@ -2,9 +2,9 @@ import sqlite3
 import requests
 from pathlib import Path
 
-root = Path(__file__).resolve().parent.parent
-db_path = root / "db" / "crypto.db"
-image_folder = root / "data" / "coin_images"
+root = Path(__file__).resolve().parent.parent.parent
+db_path = root / "db" / "crypto" / "crypto.db"
+image_folder = root / "data" / "crypto" / "coin_images"
 
 api_url = "https://api.coingecko.com/api/v3/coins/markets"
 payload = {

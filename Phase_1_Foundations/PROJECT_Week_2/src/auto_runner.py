@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 
-script_to_run = Path(__file__).resolve().parent / "crypto_logs.py"
+script_to_run = Path(__file__).resolve().parent / "crypto" / "crypto_logs.py"
 
 TOTAL_RUNS = 10
 SLEEP_INTERVAL_SECONDS = 60  
