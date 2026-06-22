@@ -24,8 +24,8 @@ def initialize_and_seed_db():
         
         # Generate Normal Data 
         np.random.seed(42) 
-        group_a_normal = np.random.normal(loc=15000.0, scale=10.0, size=500)
-        group_b_normal = np.random.normal(loc=15500.0, scale=10.0, size=500)
+        group_a_normal = np.random.normal(loc=50.0, scale=10.0, size=500)
+        group_b_normal = np.random.normal(loc=55.0, scale=10.0, size=500)
         
         # THE POISON: Inject 3 massive $15,000 fraud transactions into Group A
         group_a_poisoned = np.append(group_a_normal, [15000.0, 15500.0, 14900.0])
