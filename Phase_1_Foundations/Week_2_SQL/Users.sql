@@ -1,0 +1,31 @@
+-- Create Table IF NOT EXISTS users(
+--     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+--     first_name Text not null,
+--     last_name Text not null,
+--     email Text not null unique,
+--     role Text default 'customer',
+--     account_balance Real default 0.0
+-- );
+
+-- Insert into users(first_name,last_name,email,role,account_balance)
+-- values('john','alex','aj@gmail.com','admin',500),
+-- ('Elon','musk','em@gmail.com','customer',1000),
+-- ('Bill','gates','bg@gmail.com','Businessman',1500);
+-- insert into users(first_name,last_name,email,role,account_balance)
+-- values('George', 'Miller', 'george.m@example.com', 'admin', 5400.00),
+--     ('Hannah', 'Abbott', 'hannah.a@example.com', 'customer', 320.50),
+--     ('Ian', 'Malcolm', 'ian.m@example.com', 'engineer', 11500.00),
+--     ('Julia', 'Roberts', 'julia.r@example.com', 'customer', 900.00),
+--     ('Kevin', 'Flynn', 'kevin.f@example.com', 'engineer', 80.00),
+--     ('Luna', 'Lovegood', 'luna.l@example.com', 'customer', 2500.00),
+--     ('Marcus', 'Aurelius', 'marcus.a@example.com', 'admin', 99999.00),
+--     ('Nora', 'Allen', 'nora.a@example.com', 'customer', 15.00);
+
+-- UPDATE users set user_id = 10 where first_name = 'George' and last_name = 'Miller';
+-- UPDATE users set user_id = 11 where first_name = 'Hannah' and last_name = 'Abbott';
+-- UPDATE users set user_id = 12 where first_name = 'Ian' and last_name = 'Malcolm';
+-- UPDATE users set user_id = 13 where first_name = 'Julia' and last_name = 'Roberts';
+-- UPDATE users set user_id = 14 where first_name = 'Kevin' and last_name = 'Flynn';
+-- UPDATE users set user_id = 15 where first_name = 'Luna' and last_name = 'Lovegood';
+-- UPDATE users set user_id = 16 where first_name = 'Marcus' and last_name = 'Aurelius';
+-- UPDATE users set user_id = 17 where first_name = 'Nora' and last_name = 'Allen';
