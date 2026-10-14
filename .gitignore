@@ -1,1 +1,22 @@
+# Virtual Environments (Monorepo)
+.venv/
 venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Database Engines (Week 2 & Week 3)
+*.db
+*.sqlite
+*.sqlite3
+
+# Columnar Storage & Big Datasets (Week 5)
+*.parquet
+data/*.csv
+data/*.parquet
+
+# OS & Temp Files
+.DS_Store
+Thumbs.db
